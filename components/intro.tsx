@@ -7,7 +7,7 @@ import Link from "next/link";
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
-import Me from "/me.png";
+
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
 
@@ -32,7 +32,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="/me.png"
+              src="/me_org.png"
               alt="Ricardo portrait"
               width="192"
               height="192"
