@@ -36,7 +36,7 @@ export const sendEmail = async (formData: FormData) => {
     //   }),
     // });
 
-    resend.emails.send({
+    data = await resend.emails.send({
       from: "samarhayatofficial@gmail.com",
       to: "samarhayat.dev@gmail.com",
 
