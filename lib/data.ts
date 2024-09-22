@@ -1,10 +1,10 @@
 import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+
+import { FaReact, FaWordpress } from "react-icons/fa";
+
+import citadelsol from "@/public/projectImages/Citadel.png";
+import zealsoft from "@/public/projectImages/ZealSoft.png";
+import gogency from "@/public/projectImages/Gogency.png";
 
 export const links = [
   {
@@ -35,66 +35,79 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Website Developer Intern",
+    title: "Assistant Web Developer at Xecutors",
     location: "Chakwal, PK",
     description:
-      "I completed a three-month internship where I advanced my skills in WordPress and SEO from the ground up to an intermediate level.",
-    icon: React.createElement(CgWorkAlt),
-    date: "Aug, 2023 - Oct, 2023",
+      "Currently at Xecutors, developing features and fixing bugs while working with React, Next.js, Nhost, Hasura, and GraphQL.",
+    icon: React.createElement(FaReact),
+    date: "July, 2024 - Present",
   },
   {
-    title: "JR. Website Developer",
+    title: "Frontend Developer at Citadel Solutions",
+    location: "Lahore, PK",
+    description:
+      "Contributed to various projects, including 'ZealSoft Business Solutions,' focusing on React.js and WordPress development.",
+    icon: React.createElement(FaWordpress),
+    date: "May, 2024 - June, 2024",
+  },
+  {
+    title: "Junior Website Developer at Zitsol",
     location: "Chakwal, PK",
     description:
-      "After my internship, I continued working at the same company for six months, further honing my skills in WordPress and SEO through practical experience.",
-    icon: React.createElement(CgWorkAlt),
+      "Worked as a WordPress Developer and SEO Optimizer, enhancing website performance through on-page and off-page strategies.",
+    icon: React.createElement(FaWordpress),
     date: "Nov, 2023 - Apr, 2024",
   },
   {
-    title: "Frontend Developer",
-    location: "Lahore, PK",
+    title: "Website Developer Intern at Zitsol",
+    location: "Chakwal, PK",
     description:
-      "After that, I switched offices and am now working for a new startup, handling their freelance projects as a developer.",
-    icon: React.createElement(FaReact),
-    date: "May, 2024 - Present",
+      "Completed a three-month internship, gaining hands-on experience in WordPress and SEO while enhancing my skills through online resources.",
+    icon: React.createElement(FaWordpress),
+    date: "Aug, 2023 - Oct, 2023",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "Next.JS Portfolio",
+    title: "Gogency Website",
     description:
-      "I use next.js with aceternity ui to create this portfolio website with modren ui design",
-    tags: ["React", "Next.js", "Aceternity UI", "Tailwind"],
-    imageUrl: corpcommentImg,
+      "Developed the Gogency website using WordPress and Elementor. Focused on SEO and optimization based on Google Analytics and PageSpeed Insights.",
+    tags: ["WordPress", "Elementor", "SEO", "Google Analytics"],
+    imageUrl: gogency, // Replace with the actual image URL
+    link: "https://gogency.com/", // Replace with the actual project link
   },
-  // {
-  //   title: "rmtDev",
-  //   description:
-  //     "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-  //   tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-  //   imageUrl: rmtdevImg,
-  // },
-  // {
-  //   title: "Word Analytics",
-  //   description:
-  //     "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-  //   tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-  //   imageUrl: wordanalyticsImg,
-  // },
+  {
+    title: "ZealSoft Solutions",
+    description:
+      "Created the ZealSoft Business Solutions website using WordPress and Elementor. Focused on SEO and optimization based on Google Analytics and PageSpeed Insights.",
+    tags: ["WordPress", "Elementor", "SEO", "Google Analytics"],
+    imageUrl: zealsoft, // Replace with the actual image URL
+    link: "https://www.zealsoftsolutions.com/", // Replace with the actual project link
+  },
+  {
+    title: "Citadel Solutions",
+    description:
+      "Developed the Citadel Solutions website using WordPress and Elementor. Focused on SEO and optimization based on Google Analytics and PageSpeed Insights.",
+    tags: ["WordPress", "Elementor", "SEO", "Google Analytics"],
+    imageUrl: citadelsol, // Replace with the actual image URL
+    link: "https://citadelsol.io/", // Replace with the actual project link
+  },
 ] as const;
 
 export const skillsData = [
   "HTML",
   "CSS",
+  "TailwindCSS",
   "JavaScript",
   "TypeScript",
-  "React",
-  "Next.js",
-  "Node.js",
+  "React.JS",
+  "Next.JS",
+
   "Git",
-  "Tailwind",
-  "Framer Motion",
+  "GITHub",
+  "Nhost",
+  "GraphQL",
   "WordPress",
   "SEO",
 ] as const;

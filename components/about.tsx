@@ -19,23 +19,18 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        My name is Samar Hayat. After completing my FA, I joined an IT house for
-        an internship where I learned about WordPress. Later, I discovered a
-        passion for coding, especially in{" "}
-        <span className="font-medium">JavaScript and React.js</span>. I am
-        currently enhancing my skills in these areas. Although I do freelance
-        work with WordPress, I am seeking opportunities to work with a team and
-        learn <span className="font-medium">industry standards</span> from
-        experienced professionals. I am a Pakistan-based frontend developer.
+        I’m currently working as an Assistant Web Developer at Xecutors, where I
+        collaborate on projects like <strong>Gogency.com</strong>. My role
+        involves implementing new features, debugging reported issues, and
+        ensuring smooth functionality across the platform. With over a year and
+        a half of experience in web development, I’m most comfortable working
+        with <strong>React, Next.js</strong>, and modern tools like{" "}
+        <strong>Nhost</strong> and <strong>GraphQL</strong>.
       </p>
 
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy watching
-        anime, which I find entertaining. I also have a bit of an introverted
-        side. Besides anime,{" "}
-        <span className="font-medium">I love learning new things</span>.
-        Currently, I'm learning about UI/UX design to better collaborate with
-        designers on future projects.
+        I’m passionate about continuously improving my skills and contributing
+        to innovative projects that push the boundaries of web development.
       </p>
     </motion.section>
   );
