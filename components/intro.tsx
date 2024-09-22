@@ -29,6 +29,7 @@ export default function Intro() {
             transition={{
               type: "tween",
               duration: 0.2,
+              delay: 0.1, // Added delay
             }}
           >
             <Image
@@ -49,7 +50,7 @@ export default function Intro() {
             transition={{
               type: "spring",
               stiffness: 125,
-              delay: 0.1,
+              delay: 0.2, // Added delay
               duration: 0.7,
             }}
           >
@@ -59,27 +60,29 @@ export default function Intro() {
       </div>
 
       <motion.h1
-        className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
+        className="mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.3 }} // Added delay
       >
-        {/* <span className="font-bold">Hello, I'm Samar Hayat.</span> I'm a{" "}
-        <span className="font-bold">frontend developer</span> with{" "}
-        <span className="font-bold">1 years</span> of experience. I enjoy
-        building <span className="italic">sites & apps</span>. My focus is{" "}
-        <span className="underline">React (Next.js)</span>. */}
-        Enthusiastic Frontend Developer looking to learn and advance in the
-        technology sector. Passionate about developing creative web solutions
-        and improving user experiences.
+        Samar Hayat
       </motion.h1>
+      <motion.p
+        className="mb-10 px-4 text-2xl font-medium !leading-[1.5] sm:text-base"
+        initial={{ opacity: 0, y: 100 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.4 }} // Added delay
+      >
+        <strong>Frontend Developer</strong> focused on creating user-friendly
+        websites. I understand what users want and design solutions that meet
+        their needs. Let's work together to bring your ideas to life!
+      </motion.p>
 
       <motion.div
         className="flex flex-col sm:flex-row items-center justify-center gap-4 px-4 text-lg font-medium"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{
-          delay: 0.1,
-        }}
+        transition={{ delay: 0.5 }} // Added delay
       >
         <Link
           href="#contact"
@@ -106,9 +109,7 @@ export default function Intro() {
           className="flex flex-row items-center justify-center gap-4 text-lg font-medium"
           initial={{ opacity: 0, y: 100 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{
-            delay: 0.1,
-          }}
+          transition={{ delay: 0.6 }} // Added delay
         >
           <a
             className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
